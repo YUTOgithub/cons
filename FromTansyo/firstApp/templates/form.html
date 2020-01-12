@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>form_test</title>
+    </head>
+    <body>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <p>
+                短所：<input type="text" name="name" size="40">
+            </p>
+            <p>
+                <input type="submit" value="送信"> <input type="reset" value="リセット">
+            </p>
+        </form>
+    </body>
+</html>
