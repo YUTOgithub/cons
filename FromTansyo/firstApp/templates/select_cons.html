@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>select_cons</title>
+</head>
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p>記号<br>
+        <select name="cons">
+            <option value="worry">心配性</option>
+        </select>
+        </p>
+        <p>
+            <input type="submit" value="送信">
+        </p>
+    </form>
+</body>
+</html>

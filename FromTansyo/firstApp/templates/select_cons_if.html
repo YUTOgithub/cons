@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>select_cons_if</title>
+</head>
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p>あなたの長所は<br>
+            {% if cons == '心配性' %}
+                慎重
+            {% else %}
+        </p>
+    </form>
+</body>
+</html>

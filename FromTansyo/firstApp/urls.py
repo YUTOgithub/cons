@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     url(r'^hello/$',views.hello),
-    url(r'^welcome/$',views.welcome),
-    url(r'^form_test/$',views.form_test),
+    url(r'^welcome2/$',views.welcome2),
+    url(r'^select_cons/$',views.select_cons),
+    url(r'^merit/$',views.merit),
 ]
